@@ -20,6 +20,7 @@ dependencies:
   - pandas
   - pip
   - python=3.8.0
+  - pyserial
   - qtconsole=5.1
   - scipy=1.6
   - setuptools=52.0
