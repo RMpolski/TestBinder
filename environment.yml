@@ -4,8 +4,7 @@ channels:
 dependencies:
   - ipympl=0.7.0
   - ipython=7.26.0
-  - ipywidgets=7.6.3=pyhd3eb1b0_1
-  - jedi=0.18.0=py38hecd8cb5_1
+  - ipywidgets=7.6.3
   - jupyter=1.0.0
   - jupyter_client=6.1.12
   - jupyter_console=6.4.0
@@ -29,12 +28,11 @@ dependencies:
   - pyqt=5.9.2
   - pyqtgraph=0.11.0
   - pyserial=3.5
-  - pysocks=1.7.1=py38_1
   - python=3.8.0
   - python-dateutil=2.8.2
   - pytz=2021.1
   - pyyaml=5.4.1
-  - pyzmq=22.2.1=py38h23ab428_1
+  - pyzmq=22.2.1
   - qt=5.9.7
   - qtconsole=5.1.0
   - qtpy=1.10.0
