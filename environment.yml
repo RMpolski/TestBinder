@@ -17,20 +17,18 @@ dependencies:
   - nbformat=5.1
   - notebook=6.4
   - numpy=1.21
-  - pip=21.2
+  - pandas
+  - pip
   - python=3.8.0
-  - qtconsole=5.1.0
-  - qtpy=1.10.0
+  - qtconsole=5.1
   - scipy=1.6
   - setuptools=52.0
   - sqlite=3.33
-  - tk=8.6
   - urllib3=1.26
-  - wheel=0.37
   - widgetsnbextension=3.5
   - pip:
-    - h5py==3.3.0
+    - h5py==3.3
     - ipykernel==6.0
     - lmfit==1.0.2
-    - -e Qcodes/.
+    - -e Qcodes
 prefix: /Users/robertpolski/opt/anaconda3/envs/qcodes
