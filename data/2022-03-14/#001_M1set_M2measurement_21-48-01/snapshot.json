@@ -1,0 +1,88 @@
+{
+    "loop": {
+        "__class__": "qcodes.loops.ActiveLoop",
+        "sweep_values": {
+            "parameter": {
+                "__class__": "qcodes.instrument.parameter.Parameter",
+                "full_name": "M1",
+                "value": 2,
+                "raw_value": 2,
+                "ts": "2022-03-14 21:46:02",
+                "label": "M1",
+                "post_delay": 0,
+                "name": "M1",
+                "inter_delay": 0,
+                "unit": ""
+            },
+            "values": [
+                {
+                    "min": -1.0,
+                    "max": 8.0,
+                    "first": -1.0,
+                    "last": 8.0,
+                    "num": 101,
+                    "type": "sequence"
+                }
+            ]
+        },
+        "delay": 0.1,
+        "actions": [
+            {
+                "__class__": "qcodes.instrument.parameter.Parameter",
+                "full_name": "M2",
+                "value": -4.412045614023662,
+                "raw_value": -4.412045614023662,
+                "ts": "2022-03-14 21:46:02",
+                "label": "M2",
+                "post_delay": 0,
+                "name": "M2",
+                "inter_delay": 0,
+                "unit": ""
+            }
+        ],
+        "then_actions": [],
+        "ts_start": "2022-03-14 21:48:06",
+        "use_threads": false,
+        "ts_end": "2022-03-14 21:48:18"
+    },
+    "__class__": "qcodes.data.data_set.DataSet",
+    "location": "data/2022-03-14/#001_M1set_M2measurement_21-48-01",
+    "arrays": {
+        "M1_set": {
+            "__class__": "qcodes.data.data_array.DataArray",
+            "full_name": "M1",
+            "raw_value": 2,
+            "label": "M1",
+            "post_delay": 0,
+            "name": "M1",
+            "inter_delay": 0,
+            "unit": "",
+            "array_id": "M1_set",
+            "shape": [
+                101
+            ],
+            "action_indices": [],
+            "is_setpoint": true
+        },
+        "M2": {
+            "__class__": "qcodes.data.data_array.DataArray",
+            "full_name": "M2",
+            "raw_value": -4.412045614023662,
+            "label": "M2",
+            "post_delay": 0,
+            "name": "M2",
+            "inter_delay": 0,
+            "unit": "",
+            "array_id": "M2",
+            "shape": [
+                101
+            ],
+            "action_indices": [
+                0
+            ],
+            "is_setpoint": false
+        }
+    },
+    "formatter": "qcodes.data.gnuplot_format.GNUPlotFormat",
+    "io": "<DiskIO, base_location='/Users/robertpolski/Documents/Python Tutorials/TestBinder'>"
+}
