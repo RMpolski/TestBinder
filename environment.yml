@@ -31,5 +31,6 @@ dependencies:
     - h5py==3.3
     - ipykernel==6.0
     - lmfit==1.0.2
+    - caltechdata_api
     - -e ./Qcodes
 prefix: /Users/robertpolski/opt/anaconda3/envs/qcodes
