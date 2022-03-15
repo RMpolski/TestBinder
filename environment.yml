@@ -25,7 +25,6 @@ dependencies:
   - numpy-base=1.20.3
   - pip=21.2.2
   - pygments=2.10.0
-  - pyqt=5.9.2
   - pyqtgraph=0.11.0
   - pyserial=3.5
   - python=3.8.0
@@ -73,6 +72,7 @@ dependencies:
     - pyasn1==0.4.8
     - pyasn1-modules==0.2.8
     - pyrsistent==0.18.0
+    - pyqt=5.9.2
     - pyvisa==1.11.3
     - requirements-parser==0.2.0
     - rsa==4.7.2
